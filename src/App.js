@@ -45,7 +45,7 @@ function App() {
               e.preventDefault();
               addTodo(text, setText, setTodo,setCheck)}}
           >
-            {isUpdating ? "Update" : "Add"}
+            {isUpdating ? "Update" : "Comment"}
           </button>
           </form>
           </div>
