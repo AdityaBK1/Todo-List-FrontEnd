@@ -1,6 +1,6 @@
 import axios from 'axios'
 
- const Url = "https://jsonplaceholder.typicode.com/comments";
+ const Url = "https://todo-list-backend-h84a.onrender.com";
 
 const getAllTodo = (setTodo) => {
     axios.get(Url)
